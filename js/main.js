@@ -13,3 +13,9 @@ function openModal() {
 function closeModal() {
   modal.style.display = "none";
 }
+
+function outsideClick(e) {
+  if (e.target == modal) {
+    closeModal();
+  }
+}
