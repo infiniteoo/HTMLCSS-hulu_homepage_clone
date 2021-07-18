@@ -6,4 +6,7 @@ loginBtn.addEventListener("click", openModal);
 closeBtn.addEventListener("click", closeModal);
 window.addEventListener("click", outsideClick);
 
+function openModal() {
+  modal.style.display = "block";
+}
 
